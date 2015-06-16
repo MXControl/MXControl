@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MXControl", "MXControl.vcproj", "{0F01A4F5-937F-4F17-81D2-59145412FB94}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Configurator", "Configurator\Configurator.vcproj", "{B95FCCEE-04E3-47CF-86FB-154B9205D5D7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0F01A4F5-937F-4F17-81D2-59145412FB94}.Debug.ActiveCfg = Debug|Win32
+		{0F01A4F5-937F-4F17-81D2-59145412FB94}.Debug.Build.0 = Debug|Win32
+		{0F01A4F5-937F-4F17-81D2-59145412FB94}.Release.ActiveCfg = Release|Win32
+		{0F01A4F5-937F-4F17-81D2-59145412FB94}.Release.Build.0 = Release|Win32
+		{B95FCCEE-04E3-47CF-86FB-154B9205D5D7}.Debug.ActiveCfg = Debug|Win32
+		{B95FCCEE-04E3-47CF-86FB-154B9205D5D7}.Debug.Build.0 = Debug|Win32
+		{B95FCCEE-04E3-47CF-86FB-154B9205D5D7}.Release.ActiveCfg = Release|Win32
+		{B95FCCEE-04E3-47CF-86FB-154B9205D5D7}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
